@@ -1,0 +1,34 @@
+{
+    "name": "grocelivery/laravel-testing",
+    "description": "Behat scenarios steps definitions for grocelivery apps made in laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mateusz Lencki",
+            "email": "mateusz.lencki@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "ext-json": "*",
+        "illuminate/support": "^6.5",
+        "laravel/passport": "^8.0",
+        "grocelivery/http-utils": "^1.0",
+        "behat/behat": "^3.5",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grocelivery\\Testing\\Laravel\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Grocelivery\\Testing\\Laravel\\Providers\\TestingServiceProvider"
+            ]
+        }
+    }
+}
