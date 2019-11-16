@@ -23,7 +23,6 @@
             "Grocelivery\\Testing\\Laravel\\": "src"
         }
     },
-    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
