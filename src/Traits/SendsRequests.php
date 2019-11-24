@@ -6,7 +6,7 @@ namespace Grocelivery\Testing\Laravel\Traits;
 
 use Behat\Gherkin\Node\TableNode;
 use Exception;
-use Grocelivery\HttpUtils\Responses\JsonResponse;
+use Grocelivery\Utils\Responses\JsonResponse;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Http\Request;
 use PHPUnit\Framework\Assert;
