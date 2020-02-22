@@ -1,6 +1,6 @@
 # Laravel testing
 
-Biblioteka z podstawowym środowiskiem testowym Behat i gotowymi scenariuszami testowymidla aplikacji rozwijanych z wykorzystaniem framework'a Laravel.
+Wewnętrzna biblioteka z podstawowym środowiskiem testowym Behat i gotowymi scenariuszami testowymi dla aplikacji rozwijanych z wykorzystaniem framework'a Laravel.
 
 ### Instalacja
 
